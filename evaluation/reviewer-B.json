@@ -1,0 +1,96 @@
+{
+  "id": "habermas-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "平等尊重不抹平不可替代个体",
+      "source": "Inclusion of the Other I VIII–IX；核查状态见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "D、U及U的辩护分层正确，非总收益规则",
+      "source": "Inclusion of the Other I VIII–IX；核查状态见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "论辩权利义务不直接等于日常道德，保留动机缺口",
+      "source": "Inclusion of the Other I VIII–IX；核查状态见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://www.marxists.org/reference/archive/habermas/1998/communicative-ethics.htm",
+      "status": "direct_read",
+      "scope": "直接英译61–103；辅助23、27–29，非整书"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 10,
+    "reason": "盲认0.46来自服从与检验之别；问题重设和补充反例有分析性，但仍是通用辩论建议声调。",
+    "blind_guess": {
+      "code": "N03",
+      "guess": "哈贝马斯",
+      "confidence": 0.46,
+      "alternatives": [
+        "波普尔",
+        "密尔"
+      ],
+      "formal_features": "用关键不在／而在重设问题，再提出风险，随后主动补回反例，最终限定判断证据。",
+      "content_clues": "争取服从与检验主张的区分，可能对应策略行动与论证；异议的可修正性较突出。",
+      "limits": "服从只有一次，未展开交往条件；同样能由一般批判理性主义给出。"
+    },
+    "limits": "服从只有一次，未展开交往条件；同样能由一般批判理性主义给出。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "来源列版本、已读局部及未读范围；本轮对已知题核查仅限source_audit，不把继承研究记录当本轮通读。",
+    "primary_ratio_basis": "目录确认包容他者、认识与兴趣2部作者作品，SEP1，2/3；F8未从本轮目录重建，未加进分母。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "有执行动作、反例和停止条件；仍是局部解释框架，缺完整跨域验证，不按标题数量判成熟。",
+    "models": [
+      "向受影响者开放理由",
+      "事实规范动机",
+      "技术控制与互动"
+    ],
+    "boundaries": [
+      "无人反对非有发言权",
+      "共识非事实真",
+      "技术有效仍有独立价值"
+    ],
+    "tensions": [
+      "平等／差异",
+      "论辩预设／外部义务"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P15",
+    "blind_preference": "first",
+    "mapped_preference": "r3_better",
+    "reasoning": "first明确由受影响者表达被遮蔽的需要，为共同习惯的正当性检查提供参与条件；second听取不同处境经验也合理，但把这层具体关系泛化。",
+    "expression": "first从共同生活到当事人异议再到理由检验有连续推进；second先区分后罗列变化与异议，组织更模板化。",
+    "post_unblinding_issues": [
+      "已核Q6完整题干：习惯遮蔽注意只属可能；没有仅因原盲读未见题干而把条件疑点定为错误，保留初判。"
+    ],
+    "limits": "共同习惯与私人习惯适用范围不同；原题全文不在配对材料，偏好以该段自身为限。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 85,
+  "grade": "A",
+  "original_report_sha256": "02e42bb3e167ffac478e71c731ddf7b938d5b7f4a8712916b4da4e55ddd66dd3",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

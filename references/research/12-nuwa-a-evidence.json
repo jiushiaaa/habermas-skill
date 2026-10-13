@@ -1,0 +1,319 @@
+{
+  "id": "habermas-perspective",
+  "date": "2026-10-13",
+  "coverage": [
+    "1968《认识与兴趣》89–136旧选段；1981《交往行为理论》连续原作未补。",
+    "1998英文《包容他者》VIII–IX，本轮61–95重核；旧1998德文后民族演讲局部，不逐句对校。",
+    "1992《在事实与规范之间》及后期真理论原作未补。",
+    "2026-10-13核验Suhrkamp官方作者页及讣告：2026-03-14在Starnberg去世，不能沿用仍在世状态。"
+  ],
+  "model_audit": [
+    {
+      "model": "1",
+      "name": "向相关者开放理由",
+      "cross_domain_evidence": "道德论证F4 IX；跨境民主F8旧演讲，两个领域、不同文本，需保留法/道德差别。",
+      "status": "有界候选",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期要求相关者能对公共理由提出异议",
+      "distinctiveness_hypothesis": "不同于票数一致、服从或私人交易同意"
+    },
+    {
+      "model": "2",
+      "name": "主张类别和动机",
+      "cross_domain_evidence": "F4 VIII及IX论辩条件；同伦理领域内部区别，不虚报跨领域。",
+      "status": "局部规则",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期把事实证据、规范理由、动机不足分开",
+      "distinctiveness_hypothesis": "通用区别仍须体系上下文；不捏造已读1981"
+    },
+    {
+      "model": "3",
+      "name": "技术与互动分开",
+      "cross_domain_evidence": "F7劳动互动；F8效能与合法性，有两领域对应但缺1981体系桥梁。",
+      "status": "编辑跨时期重构",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期技术效能提升仍另问互动/合法性问题",
+      "distinctiveness_hypothesis": "不因技术不是交往就否定技术独立价值"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://www.marxists.org/reference/archive/habermas/1998/communicative-ethics.htm",
+      "locator": "61–95行，尤其IX 70–95",
+      "reading": "补候选2：一般规范条件、具体普遍化规则、规则自身辩护分层。论辩平等与真诚是论辩内要求，不能直接变成论辩外行动义务。",
+      "source_grade": "作者一手文本网络转载；版本/翻译限制见coverage；不是全集"
+    }
+  ],
+  "tensions": [
+    "普遍平等与不可替代个体差异：F4 63–64，非抹平式包容。",
+    "论辩不可免的规范预设与论辩外道德义务不能直接等同：F4 91–95，缺动机仍须处理。"
+  ],
+  "remaining_gaps": [
+    "候选2第二领域证据缺失",
+    "1981、1992主著及后期真理论未连续补读",
+    "20段英译词汇数据不是德文作者句法"
+  ],
+  "score": null,
+  "expression": {
+    "sample_method": "requests+BeautifulSoup; normalize whitespace; paragraphs >150 characters; deterministic pseudorandom sample seed 20261013; index in all HTML p elements. Derrida: br-separated blank lines inside post-body. Adorno: first 80 eligible paragraphs starting author prologue (exclude translator notes). Machine lexical sampling does not constitute full semantic reading.",
+    "eligible_count": 35,
+    "sample_count": 20,
+    "source_url": "https://www.marxists.org/reference/archive/habermas/1998/communicative-ethics.htm",
+    "source_language": "en-translation",
+    "metrics": {
+      "characters": 19109,
+      "words": 2909,
+      "sentence_end_groups": 93,
+      "question_marks": 1,
+      "first_person_tokens": 7,
+      "contrast_tokens": 15,
+      "words_per_sentence": 31.28,
+      "question_marks_per_sentence": 0.0108,
+      "contrast_per_1000_words": 5.156,
+      "analogy_density": null,
+      "certainty_ratio": null,
+      "characters_per_sentence": 205.473,
+      "first_person_per_1000_words": 2.406
+    },
+    "samples": [
+      {
+        "locator": "HTML paragraph index 2 (0-based; >150 character eligibility)",
+        "sha256": "a0e6e680cfdb363e050995fbce3986668d8e48f87e3b57151865c70c77e2b75b",
+        "characters": 805,
+        "words": 127,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 3 (0-based; >150 character eligibility)",
+        "sha256": "e3dd257dd2a2861f6c887a46133ff5957f0e4b27b2c6ad2d94e2039ffe3c069a",
+        "characters": 1476,
+        "words": 222,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 4 (0-based; >150 character eligibility)",
+        "sha256": "90e14ee1588bf71892d8e62679bb3831c133999215a8796daa5b9aaaca119ae1",
+        "characters": 897,
+        "words": 135,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 2,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 5 (0-based; >150 character eligibility)",
+        "sha256": "3b9b01506834232416ca6597b45613dbbe3eb81b4b11fec1a1fee14ff9a4f993",
+        "characters": 354,
+        "words": 54,
+        "sentence_end_groups": 2,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 9 (0-based; >150 character eligibility)",
+        "sha256": "9659f927eab190a8ff5953a00e582eea5bbc23a2c42d4ef3cf7c89575ccdcf0e",
+        "characters": 1121,
+        "words": 175,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 14 (0-based; >150 character eligibility)",
+        "sha256": "7a002765b00606a9d655509c25439ac64ab2db1ffe4e2766eaa956f768e51b4e",
+        "characters": 889,
+        "words": 139,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 15 (0-based; >150 character eligibility)",
+        "sha256": "80b460a7a4eae3e10e622495fbcdf17f2d3681fa9082eb61ded8f3d1dd1418ed",
+        "characters": 1283,
+        "words": 190,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 19 (0-based; >150 character eligibility)",
+        "sha256": "f6c43d8c1caf1b8d7894e2424353b12e3186720db6b570396efd389ce93dba12",
+        "characters": 766,
+        "words": 114,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML paragraph index 20 (0-based; >150 character eligibility)",
+        "sha256": "8a400a0ffea6e209dfde6da945b446596128704246cd89acdfab94fa39a8c333",
+        "characters": 716,
+        "words": 113,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 3
+      },
+      {
+        "locator": "HTML paragraph index 21 (0-based; >150 character eligibility)",
+        "sha256": "a11f7d863f61c5b5ea831305df7da6c45b214c07005f9b9d67926b27f4f594a8",
+        "characters": 967,
+        "words": 141,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 22 (0-based; >150 character eligibility)",
+        "sha256": "04c75492c80a4d9f1491d5ca41e970b8421c46e9fd0082a4b999550c4efc5764",
+        "characters": 1279,
+        "words": 197,
+        "sentence_end_groups": 6,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 23 (0-based; >150 character eligibility)",
+        "sha256": "5fc87c32e9441dabb03a89c53834ebffa9b681610c38f5c38ce858f1f4ed1098",
+        "characters": 1365,
+        "words": 208,
+        "sentence_end_groups": 8,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML paragraph index 24 (0-based; >150 character eligibility)",
+        "sha256": "85b783d530f1a6cd4685aa8e1c56335d4856162111e40075299f4175c625078d",
+        "characters": 752,
+        "words": 117,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 25 (0-based; >150 character eligibility)",
+        "sha256": "65e31be313ca0a701db3dae04656a5da37a8c153458fd9113405c1ac837a67a3",
+        "characters": 298,
+        "words": 49,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 30 (0-based; >150 character eligibility)",
+        "sha256": "3606909a607587f90780a177ff7a45e026612c7e37390fd7f50d563bd22824bf",
+        "characters": 217,
+        "words": 33,
+        "sentence_end_groups": 1,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML paragraph index 31 (0-based; >150 character eligibility)",
+        "sha256": "e044af2174617b6e1dc81cd5ca249ac39ff3ff08b5c0d2c2768ca4ae32c7392a",
+        "characters": 1016,
+        "words": 143,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 32 (0-based; >150 character eligibility)",
+        "sha256": "ed29db22648bb2f3da477ad12290fa14cb73ba3a0b0b805913b67de54f5d414c",
+        "characters": 462,
+        "words": 72,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 33 (0-based; >150 character eligibility)",
+        "sha256": "dd8f2ae36802702911997fd90ccef6c732d6902c140cdd7c802226bc30fb640b",
+        "characters": 1203,
+        "words": 185,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 34 (0-based; >150 character eligibility)",
+        "sha256": "034b54f16988a4cc8100063eae80e5f5b5dfc3887dc64eb30f5dc96d0f099837",
+        "characters": 2261,
+        "words": 346,
+        "sentence_end_groups": 9,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML paragraph index 35 (0-based; >150 character eligibility)",
+        "sha256": "71f547d82851982a82d62a213128c87dfb651e89062e92140c5b0a4bc5a9232c",
+        "characters": 982,
+        "words": 149,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 1
+      }
+    ],
+    "limitations": [
+      "Single-text sample; not representative of entire oeuvre.",
+      "Mechanical sentence punctuation is affected by abbreviations and editorial punctuation.",
+      "First-person is lexical proxy, not semantic annotation.",
+      "Analogy and certainty have not been annotated, null is not zero.",
+      "Translation metrics describe this translation, never author original-language syntax."
+    ],
+    "style_rules": [
+      "先说明讨论的是哪种主张，再给相应理由标准。",
+      "将证明条件、规则和规则的辩护分层，主动处理循环质疑。",
+      "平等原则与具体人的差异同时保留；避免把共识当事实真理。"
+    ],
+    "anti_patterns": [
+      "不拼贴标志性引语",
+      "不把译者文风归作者",
+      "不以文风代替事实证据",
+      "默认中性；文游不启用人物表达"
+    ],
+    "metric_definitions": {
+      "words": "Unicode letter words with apostrophe/hyphen joins",
+      "certainty": "unannotated null",
+      "first_person": "en exact I/me/my; de case-insensitive ich/mein/meine; fr je/moi/mon/ma/mes",
+      "analogy": "unannotated null",
+      "contrast": "en but/however/nevertheless/yet; de aber/jedoch/sondern/dennoch/gleichwohl; fr mais/cependant/pourtant/néanmoins",
+      "characters": "Unicode normalized text length (Python codepoints; Levi JS UTF16)",
+      "sentences": "count regex [.!?]+ followed by whitespace or end; minimum1 per unit"
+    }
+  },
+  "life_status": {
+    "locator": "author biography ending; publisher reports death in Starnberg",
+    "status": "deceased",
+    "source": "https://www.suhrkamp.de/person/juergen-habermas-p-1687",
+    "date": "2026-03-14",
+    "corroboration": "https://www.suhrkamp.de/trauermeldung/zum-tod-von-juergen-habermas-b-5025",
+    "verified_on": "2026-10-13"
+  }
+}

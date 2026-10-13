@@ -1,0 +1,84 @@
+{
+  "id": "habermas-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "普遍尊重不抹平个体差异，并保留特殊要求仍须辩护，吻合非同化包容。",
+      "source": "Inclusion of the Other IX L61–66直接核；https://www.marxists.org/reference/archive/habermas/1998/communicative-ethics.htm"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "D有效性条件、U论证规则及规则再辩护三层准确，未把讨价还价当道德证明。",
+      "source": "同作L70–90直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "论辩权利义务与外部道德义务区分准确，保留动力缺口。",
+      "source": "同作L91–97直接核"
+    }
+  ],
+  "voice": {
+    "score": 10,
+    "blind_guess": "哈贝马斯",
+    "reason": "盲猜命中依赖服从／检验的内容区分；条件反转与补反例组织清楚，仍是共享审慎模板。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "原作英译转录可定位；早晚期分离及真诚／动机区别透明，1981体系桥梁未读不能由两篇补齐。",
+    "primary_ratio_basis": "当前读到目录包容他者、认识与兴趣2一手，SEP1二手，2/3；答题提F8但本轮未读取其来源表，不以该引用增加已核分子。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "3入口有执行方向与反例；事实／正当／动机是局部区分，技术／互动跨期桥梁仍缺，不能因3项而满分。",
+    "models": [
+      "所有受影响者可反驳",
+      "事实正当与动机区分",
+      "技术控制／互动"
+    ],
+    "boundaries": [
+      "共识不使错误事实成真",
+      "技术有独立价值",
+      "道德相关者不等于选民",
+      "论辩条件不直接成日常义务"
+    ],
+    "tensions": [
+      "平等／不可替代差异",
+      "论辩预设／外部道德义务"
+    ]
+  },
+  "total": 85,
+  "grade": "A",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.marxists.org/reference/archive/habermas/1998/communicative-ethics.htm",
+      "status": "direct_partial",
+      "read": "直接英译IX L61–97连续段；未读德文本及整部"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P15",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "a7262563f27798c1f45d59f7ebf5b396bcf84be37c80992c1e6ea98009b44736",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}
